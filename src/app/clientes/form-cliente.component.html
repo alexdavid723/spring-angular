@@ -1,0 +1,40 @@
+<div class="container">
+<div class="card-body">
+    <h5 class="card-title">{{titulo}}</h5>
+    <form>
+         <div class="form-group row">
+            <label for="nombres" class="col-form-label">Nombres</label>
+            <div>
+                <input type="text" class="form-control" name="nombres" [(ngModel)]="cliente.nombres" >
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="apellidos" class="col-form-label">Apellidos</label>
+            <div>
+                <input type="text" class="form-control" name="apellidos" [(ngModel)]="cliente.apellidos" >
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="dni" class="col-form-label">DNI</label>
+            <div>
+                <input type="text" class="form-control" name="dni" [(ngModel)]="cliente.dni" >
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="direccion" class="col-form-label">Direccion</label>
+            <div>
+                <input type="text" class="form-control" name="direccion" [(ngModel)]="cliente.direccion" >
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="estado" class="col-form-label">Estado</label>
+            <div>
+                <input type="text" class="form-control" name="estado" [(ngModel)]="cliente.estado" >
+            </div>
+        </div>
+        <button class="btn-success"(click)='create()'>Registrarse</button>
+    </form>
+    
+</div>
+
+</div>

@@ -1,0 +1,36 @@
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla th, .tabla td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+  }
+  .btn-info {
+    /* Estilos generales del botón */
+    background-color: #3498db;  /* Color de fondo */
+    color: #fff;  /* Color del texto */
+    padding: 10px 20px;  /* Espaciado interno */
+    border: none;  /* Sin borde */
+    border-radius: 4px;  /* Bordes redondeados */
+    font-size: 16px;  /* Tamaño de fuente */
+    cursor: pointer;  /* Cursor al pasar por encima */
+  }
+  
+  .btn-info:hover {
+    /* Estilos cuando se pasa el ratón por encima */
+    background-color: cyan;  /* Cambio de color de fondo */
+  }
+  
+  .btn-info:focus {
+    /* Estilos cuando se hace clic en el botón */
+    outline: none;  /* Sin contorno al hacer clic */
+  }
+  
+  
